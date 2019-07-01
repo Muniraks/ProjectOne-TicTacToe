@@ -1,0 +1,86 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+
+    width: auto;
+    height: auto;
+    z-index: -100;
+     
+  }
+
+body  
+{
+    /* background-image: url("space.jpg"); */
+
+}
+
+h1 
+{
+    
+    font-family: fantasy;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+}
+
+table
+{
+  margin: 150px auto;
+}
+
+td 
+{
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+.rightbottom
+{
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+
+#message {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.right
+{
+  border-right: 2px solid white;
+}
+
+.bottom
+{
+  border-bottom: 2px solid white;
+}
+  
+.box {
+    color: white;
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+#reset {
+    font-family: fantasy;
+    font-size: 20px;
+    color:white;
+    background-color:transparent;
+    text-align: center;
+    cursor:pointer;
+    
+    /* align-items: center; */
+    border:none;
+    
+}
