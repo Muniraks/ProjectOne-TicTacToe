@@ -28,7 +28,10 @@ h1
 
 table
 {
-  margin: 150px auto;
+  margin: auto;
+  
+ 
+  
 }
 
 td 
@@ -51,6 +54,7 @@ td
     font-size: 50px;
     margin: auto;
     margin-top: 20px;
+    color: white;
 
 }
 
@@ -83,4 +87,21 @@ td
     /* align-items: center; */
     border:none;
     
+}
+
+#nameButton {
+    font-family: fantasy;
+    font-size: 60px;
+    color:white;
+    background-color:transparent;
+    border:none;
+    margin-left: 620px;
+    
+}
+
+
+#names {
+    font-family: fantasy;
+    font-size: 18px;
+    color: white;
 }
