@@ -39,7 +39,22 @@ else
 
 
     winner();
-  });
+    stopGame();
+    // $(".game").off('click');
+    
+  }); 
+
+  //
+
+
+
+//   const stopGame = function ()
+//   {
+//       if (playerOneTurn >= 6)
+//       {$(".game").off('click');
+//       $(".winner").off('click');}
+
+//   };
 
 
 
@@ -63,7 +78,7 @@ const name = function()
 
  // Declare winners
 
-gameOver = false; 
+
 
 winner = function () {
     
@@ -82,54 +97,61 @@ winner = function () {
     if (box0 === box1 && box0 === box2 && box0 != '') 
     {
         $('#message').text(box0 + " is the WINNER!");  
-        gameOver = true;  
+        $(".game").off('click');
     }
 
     else if (box3 === box4 && box3 === box5 && box3 !== '') 
     {
         $('#message').text(box3+ " is the WINNER!" );
-        gameOver = true;  
+        $(".game").off('click');
     } 
 
     else if (box6 === box7 && box6 === box8 && box6 !== '') 
     {
         $('#message').text(box6 + " is the WINNER!");
-        gameOver = true;  
+        $(".game").off('click');
 
     }
 
     else if (box0 === box3 && box0 === box6 && box0 !== '') 
     {
         $('#message').text(box0 + " is the WINNER!");
-        gameOver = true;  
+        $(".game").off('click');
     }
 
     else if (box1 === box4 && box1 === box7 && box1 !== '') 
     {
         $('#message').text(box1 + " is the WINNER!");
-        gameOver = true;  
+        $(".game").off('click');
     }
 
     else if (box2 === box5 && box2 === box8 && box2 !== '') 
     {
         $('#message').text(box2 + " is the WINNER!");
-        gameOver = true;  
+        $(".game").off('click');
 
     }
 
     else if (box0 === box4 && box0 === box8 && box0 !== '') 
     {
         $('#message').text(box0 + " is the WINNER!");
-        gameOver = true;  
+        
+        $(".game").off('click');
+
     }
 
     else if (box2 === box4 && box2 === box6 && box2 !== '') 
     {
         $('#message').text(box2 + " is the WINNER");
-        gameOver = true;  
+        
+        $(".game").off('click');
+
     }
 
-    else if (
+   
+
+    else if 
+    (
         box0 !== "" &&
         box1 !== "" &&
         box2 !== "" &&
@@ -144,6 +166,7 @@ winner = function () {
         gameOver = false;  
         }
        
+        $(".game").off('click');
       
 
 
